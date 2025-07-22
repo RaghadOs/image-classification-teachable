@@ -1,4 +1,4 @@
-# Teachable Machine Image Classifier | AI for Robotics Task
+# Teachable Machine Image Classifier
 
 This project demonstrates an AI-based image classification system built using Google's **Teachable Machine** and deployed with **TensorFlow Lite**. It simulates how a robot can use visual recognition to identify different objects or classes in its environment.
 
