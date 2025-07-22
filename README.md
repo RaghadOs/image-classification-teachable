@@ -25,14 +25,14 @@ Train an image recognition model with at least two classes and deploy it to make
 
 The model was trained using **Teachable Machine** with two image classes:
 
-- Class 1: Example (e.g., "Apple")
-- Class 2: Example (e.g., "Orange")
+- Class 1: Cat
+- Class 2: Dog
 
 ### 2. Model Export
 
 The trained model was exported as:
 
-- `TensorFlow Lite → Float32` format
+- `TensorFlow Lite → Float` format
 - Includes:
   - `model_unquant.tflite` – the trained model
   - `labels.txt` – the class labels
@@ -72,7 +72,7 @@ pip install tensorflow pillow numpy
 2. Run the prediction script:
 
 ```bash
-python tflite_predict.py
+python predict_image.ipynb
 ```
 
 3. Expected output:
